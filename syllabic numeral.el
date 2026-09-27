@@ -53,10 +53,10 @@
       (message "Error: argument pair$ should contain two characters.")
       (let (first$ second$ retval$)
         (setq first$ (substring pair$ 0 1))
-	(setq second$ (substring pair$ 1 2))
+        (setq second$ (substring pair$ 1 2))
         (setq retval$ (syllabic-numeral-tens first$))
-	(setq retval$ (concat retval$ (syllabic-numeral-sg second$)))
-	retval$
+        (setq retval$ (concat retval$ (syllabic-numeral-sg second$)))
+        retval$
         )
       )
     )
