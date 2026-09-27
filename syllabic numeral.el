@@ -123,7 +123,7 @@
     (if (not (>= num 0))
       (message "Error: argument num should be non-negative.")
       (if (not (= (numberp (floor num))))
-        (message "Error: argument num should be a non-negative integer.")
+        (message "Error: argument num should be an integer.")
         (syllabic-numeral-str (number-to-string num))
         )
       )
