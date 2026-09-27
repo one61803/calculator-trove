@@ -76,7 +76,7 @@
           (setq number$ (substring number$ 2))
           (setq output$ (concat output$ (syllabic-numeral-pr pair$)))
           )
-          output$
+        output$
         )
       )
     )
